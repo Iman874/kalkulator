@@ -1,0 +1,55 @@
+body{
+    height: 500px;
+    position: relative;
+}
+
+.container{
+    margin-top: 300px;
+    max-height: 700px;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+button{
+    width: 50px;
+    margin: 0px;
+    font-size: 30px;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 10px;
+}
+button:hover{
+    width: 50px;
+    margin: 0px;
+    font-size: 30px;
+    background-color: #ffc;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 10px;
+}
+
+.numpad123,.numpad456,.numpad789{
+    width: 300px;
+    max-height: 700px;
+
+}
+
+.author{
+    margin-top: 230px;
+}
+
+.info{
+    border: none;
+    position: relative;
+    margin-top: -240px;
+    margin-left: 360px;
+    margin-right: 360px;
+    padding: 20px;
+    background-color: #ffa;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
