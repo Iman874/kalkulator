@@ -1,0 +1,91 @@
+body{
+    background-color: whitesmoke;
+}
+
+.container{
+    margin-top: 300px;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+button{
+    width: 50px;
+    margin: 0px;
+    font-size: 30px;
+    background-color: rgba(10, 0, 10, 0.1);
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.3);
+    border: none;
+    border-radius: 10px;
+}
+button:hover{
+    width: 50px;
+    margin: 0px;
+    font-size: 30px;
+    background-color: darkblue;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.numpad123,.numpad456,.numpad789{
+    width: 300px;
+    padding-left: 15%;
+
+}
+
+.author{
+    font-size: 20px;
+    position: fixed;
+    margin: 0;
+}
+
+.info1, .info2{
+    border: none;
+    padding: 15px;
+    background-color: gainsboro;
+    border-radius: 10px;
+    color: black;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; /* membuat kelas terletak di tengah-tengah halaman */
+    width: 300px;
+}
+
+.operator{
+    padding-left: 15%;
+}
+
+.box{
+    padding-left: 15%;
+}
+
+.version{
+    color: red;
+}
+
+/* Style untuk box input */
+.input-box {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+/* Style ketika input box dihover */
+.input-box:hover {
+  border-color: #66afe9;
+}
+
+/* Style ketika input box diisi */
+.input-box:focus {
+  outline: none;
+  border-color: #66afe9;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+

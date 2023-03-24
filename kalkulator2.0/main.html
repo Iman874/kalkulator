@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Kalkulator</title>
+    <link rel="stylesheet" type="text/css" href="gaya.css">
+</head>
+<body>
+    <p class="author">By Rosul Iman</p>
+    <script src="script.js"></script>
+    <br>
+    <div class="container">
+        <div class="box">
+            <h2 id="coba">Kalkulator <b class="version">versi 2.0</b></h2>
+            <input type="text" id="box" class="input-box" placeholder="Input angka" readonly>
+            <input type="text" id="hasil" class="input-box" placeholder="Hasil Operasi" readonly>
+        </div>
+        <br>
+        <div class="operator">
+            <button onclick="operator('/')">:</button>
+            <button onclick="operator('-')">-</button>
+            <button onclick="operator('+')">+</button>
+            <button onclick="operator('x')">x</button>
+        </div>
+        <br>
+        <div class="numpad123">
+            <button onclick="numpad(1)">1</button>
+            <button onclick="numpad(2)">2</button>
+            <button onclick="numpad(3)">3</button>
+            <button onclick="sumHasil()">=</button>
+        </div>
+        <div class="numpad456">
+            <button onclick="numpad(4)">4</button>
+            <button onclick="numpad(5)">5</button>
+            <button onclick="numpad(6)">6</button>
+            <button onclick="reset()">C</button>
+        </div>
+        <div class="numpad789">
+            <button onclick="numpad(7)">7</button>
+            <button onclick="numpad(8)">8</button>
+            <button onclick="numpad(9)">9</button>
+        </div>
+    </div>
+    <br>
+    <p class="info2"><b>Note : </b>Jika anda menemukan bug pada laman web, laporkan bug kepada pengembang web!</p>
+    <br>
+    <p class="info2"> <b class="version">Version 2.0</b> <br>Kalkulator masih dalam tahap pengembangan, Dapat menjumlahkan lebih dari 1 digit angka dan penjumlahan yang tidak ada batas, namun terkadang hasilnya dapat salah jika operator terlalu banyak</p>
+    <br>
+    <p class="info1"> <b class="version">Version 1.0</b> <br>Kalkulator masih dalam tahap pengembangan, hanya akurat saat melakukan 3 penjumlahan saja atau mungkin kurang</p>
+</body>
+</html>
